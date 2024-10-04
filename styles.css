@@ -1,14 +1,13 @@
 
 /* Your CSS Code here. */
 body{
-	border: 2px solid;
+	background-color:orangered;
 	height: 1000px;
 	width: 600px;
 	font-family:sans-serif;
 }
 header{
 	display:flex;
-	border: 1px solid;
 	justify-content: space-around;
 	padding:25px;
 	gap:40px
@@ -26,14 +25,13 @@ section{
 	grid-template-columns: repeat(7, 1fr);
 }
 .item{
-	border:1px solid pink;
     padding:5px;
 	margin:3px
 }
 .item1{
 	grid-column: 1 2;
 	grid-row: 1 2;
-    
+    color:white;
 }
 .item2{
 	grid-column: 2 3;
@@ -47,6 +45,7 @@ section{
 	grid-row-start: 2;
 	grid-row-end: 3;
 	height:220px;
+	color:white;
 }
 .item4{
 	grid-column-start: 2;
@@ -62,6 +61,7 @@ section{
 	grid-row-start: 3;
 	grid-row-end: 4;
 	height: 210px;
+	color:white;
 }
 .item6{
 	grid-column-start: 2;
@@ -77,6 +77,7 @@ section{
 	grid-row-start: 4;
 	grid-row-end: 5;
 	height:120px;
+	color:white;
 }
 h3{
 	margin:0px;
@@ -109,4 +110,7 @@ h5{
 .li3{
 	margin-top:3px;
 	font-family:lato;
+}
+h3{
+   color:white;
 }
