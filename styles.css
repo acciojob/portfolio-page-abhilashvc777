@@ -10,7 +10,8 @@ header{
 	display:flex;
 	justify-content: space-around;
 	padding:25px;
-	gap:40px
+	gap:40px;
+	grid-template-columns: repeat(7,1fr);
 }	
 img{
 	width:120px;
@@ -113,4 +114,31 @@ h5{
 }
 h3{
    color:white;
+}
+.ol{
+	display:flex;
+	justify-content: space-between;
+	margin-top:-20px;
+}
+.p{
+	margin-top:-17px
+}
+.ul{
+	font-size:small;
+	margin-top:-15px;
+	list-style-type:disc;
+}
+.ref{
+	display:flex;
+	justify-content:space-between;
+}
+.ref1{
+	margin-top:16px;
+}
+.ref_child{
+	line-height:2px;
+	margin-top:-2px;
+}
+.font{
+	font-size:x-small;
 }
